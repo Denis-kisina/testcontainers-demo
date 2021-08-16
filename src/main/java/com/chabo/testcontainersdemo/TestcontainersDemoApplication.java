@@ -1,4 +1,4 @@
-package com.jetbrains.testcontainersdemo;
+package com.chabo.testcontainersdemo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,5 +9,4 @@ public class TestcontainersDemoApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(TestcontainersDemoApplication.class, args);
 	}
-
 }

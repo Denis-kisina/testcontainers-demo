@@ -1,15 +1,15 @@
-package com.jetbrains.testcontainersdemo;
+package com.chabo.testcontainersdemo;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import lombok.AllArgsConstructor;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@AllArgsConstructor
 @Service
-public class CustomerDao {
+public class CustomerDAO {
 
-    @Autowired
     JdbcTemplate jdbcTemplate;
 
     public List<Customer> findAll() {

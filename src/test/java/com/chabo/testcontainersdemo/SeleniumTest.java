@@ -1,6 +1,4 @@
-package com.jetbrains.testcontainersdemo;
-
-
+package com.chabo.testcontainersdemo;
 
 /*@Testcontainers*/
 public class SeleniumTest {

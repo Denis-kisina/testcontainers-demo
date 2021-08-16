@@ -1,18 +1,18 @@
-package com.jetbrains.testcontainersdemo;
+package com.chabo.testcontainersdemo;
 
+import static org.assertj.core.api.Assertions.assertThat;
+
+import java.util.List;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import java.util.List;
-
-import static org.assertj.core.api.Assertions.assertThat;
-
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.NONE)
-public class CustomerIntegrationTests {
+//@Testcontainers
+class CustomerIntegrationTests extends AbstractTest{
 
     @Autowired
-    private CustomerDao customerDao;
+    private CustomerDAO customerDao;
 
     @Test
     void when_using_a_clean_db_this_should_be_empty() {

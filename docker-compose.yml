@@ -5,7 +5,7 @@ services:
   db:
     image: mysql:latest
     environment:
-      MYSQL_ROOT_PASSWORD: letsgomarco
+      MYSQL_ROOT_PASSWORD: letsgokisina
       MYSQL_DATABASE: somedatabase
     ports:
       - 3306:3306
